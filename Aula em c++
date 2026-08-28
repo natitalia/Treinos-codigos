@@ -1,0 +1,14 @@
+//teste da aula
+
+#include<stdio.h>
+#include<conio.h>
+
+void main() //teste
+{
+	exibirMsg();
+}
+
+void exibirMsg()
+	{
+		printf("Ola mundo!");
+	}
