@@ -12,4 +12,16 @@ soma2026 = 2026 - nasc
 
 print("\nVocê terá:",soma2026,"em 2026!")
 
+print("\nMuito daora né?! Quer testar mais?")
+decisao = input("Digite [S] para sim ou [N] para não: ").lower()
 
+while decisao == "s":
+    ano = input("\nDigite um ano: ")
+    ano = int(ano)
+    soma = ano - nasc
+    print("\nVocê terá:",soma,"em",ano,"!")
+
+    
+    decisao = input("Digite [S] para sim ou [N] para não: ").lower()
+
+print("Programa encerrado")
