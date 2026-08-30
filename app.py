@@ -11,6 +11,4 @@ nome = input("\nQual e o seu nome? ")
 idade = input("\nQual a sua idade? ")
 cidade = input("\nQual a sua cidade? ")
 
-print("\nSeu nome eh: ", nome)
-print("\nSua idade eh: ", idade)
-print("\nSua cidade eh: ", cidade)
+print("\nOlah", nome, "voceh tem", idade,"e mora na cidade", cidade)
