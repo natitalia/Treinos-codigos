@@ -12,3 +12,5 @@ idade = input("\nQual a sua idade? ")
 cidade = input("\nQual a sua cidade? ")
 
 print("\nOlah", nome, "voceh tem", idade,"e mora na cidade", cidade)
+
+print("\nPrograma encerrado!")
