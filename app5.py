@@ -16,4 +16,21 @@ not2 = float(not2)
 media = (not1 + not2) / 2
 
 print("\nA média do(a) aluno(a)",aluno,"foi: ",media)
+print("\nProximo aluno(a)?")
+decisao = input("sim[S] não[N]: ").lower()
 
+while decisao == "s":
+    aluno = input("\nDigite o nome do aluno: ")
+    not1 = input("\nDigite a primeira nota: ")
+    not2 = input("Digite a segunda nota: ")
+
+    not1 = float(not1)
+    not2 = float(not2)
+
+    media = (not1 + not2) / 2
+
+    print("\nA média do(a) aluno(a)",aluno,"foi: ",media)
+    print("\nProximo aluno(a)?")
+    decisao = input("sim[S] não[N]").lower()
+
+print("\nPrograma encerrado")
